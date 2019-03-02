@@ -6,9 +6,9 @@ public class main {
     Scanner scanner = new Scanner(System.in);
 
         System.out.println("Podaj liczbę a");
-        double a = Integer.parseInt(scanner.nextLine());
+        double a = Double.parseDouble(scanner.nextLine());
         System.out.println("Podaj liczbę b");
-        double b = Integer.parseInt(scanner.nextLine());
+        double b = Double.parseDouble(scanner.nextLine());
 
         System.out.println("Podaj rodzaj operacji: ");
         String operacja = scanner.nextLine();
