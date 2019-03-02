@@ -4,6 +4,6 @@ public class SubstractEquation implements iCalculable {
     double b = 52.9;
 
     public double calculate() {
-        return a / b;
+        return a - b;
     }
 }
