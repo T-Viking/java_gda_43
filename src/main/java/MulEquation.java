@@ -5,6 +5,7 @@ public class MulEquation implements iCalculable {
 
     public double calculate() {
         return a * b;
+
     }
 
     public MulEquation(double a, double b) {

@@ -20,19 +20,19 @@ public class main {
         DivEquation divEquation = new DivEquation(a, b);
 
         System.out.println("Podaj rodzaj operacji: ");
-        int operacja = scanner.nextInt();
+        String operacja = scanner.nextLine();
         switch (operacja){
-            case 1:
-                sumEquation.calculate();
+            case "dodaj":
+                System.out.println(sumEquation.calculate());
                 break;
-            case 2:
-                substractEquation.calculate();
+            case "odejmij":
+                System.out.println(substractEquation.calculate());
                 break;
-            case 3:
-                divEquation.calculate();
+            case "podziel":
+                System.out.println(divEquation.calculate());
                 break;
-            case 4:
-                mulEquation.calculate();
+            case "pomnoz":
+                System.out.println(mulEquation.calculate());
                 break;
         }
         System.out.println();
