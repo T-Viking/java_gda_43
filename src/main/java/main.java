@@ -5,6 +5,11 @@ public class main {
 
     Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Podaj liczbę a");
+        double a = Integer.parseInt(scanner.nextLine());
+        System.out.println("Podaj liczbę b");
+        double b = Integer.parseInt(scanner.nextLine());
+
         System.out.println("Podaj rodzaj operacji: ");
         String operacja = scanner.nextLine();
         switch (operacja){
@@ -21,9 +26,6 @@ public class main {
                 MulEquation;
                 break;
         }
-        System.out.println("Podaj liczbę a");
-        double a = double.nextLine;
-        System.out.println("Podaj liczbę b");
-        double b = double.nextLine;
+
     }
 }
