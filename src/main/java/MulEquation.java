@@ -1,9 +1,31 @@
 public class MulEquation implements iCalculable {
 
-    double g = 17.44;
-    double h = 87.54;
+    double a;
+    double b;
 
     public double calculate() {
-        return g * h;
+        return a * b;
+    }
+
+    public MulEquation(double a, double b) {
+        this.a = a;
+        this.b = b;
+
+    }
+
+    public double getG() {
+        return a;
+    }
+
+    public void setG(double g) {
+        this.a = a;
+    }
+
+    public double getH() {
+        return b;
+    }
+
+    public void setH(double h) {
+        this.b = b;
     }
 }

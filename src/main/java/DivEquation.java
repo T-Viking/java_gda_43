@@ -1,9 +1,9 @@
 public class DivEquation implements iCalculable {
 
-    double x = 33.64;
-    double y = 27.98;
+    double a;
+    double b;
 
     public double calculate() {
-        return x / y;
+        return a / b;
     }
 }

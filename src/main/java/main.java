@@ -1,6 +1,10 @@
+import javax.swing.plaf.multi.MultiLabelUI;
 import java.util.Scanner;
 
 public class main {
+
+
+
     public static void main(String[] args) {
 
     Scanner scanner = new Scanner(System.in);
@@ -10,22 +14,28 @@ public class main {
         System.out.println("Podaj liczbę b");
         double b = Double.parseDouble(scanner.nextLine());
 
+        MulEquation mulEquation = new MulEquation(a, b);
+        SumEquation sumEquation = new SumEquation(a, b);
+        SubstractEquation substractEquation = new SubstractEquation(a, b);
+        DivEquation divEquation = new DivEquation(a, b);
+
         System.out.println("Podaj rodzaj operacji: ");
         String operacja = scanner.nextLine();
         switch (operacja){
             case ("add"):
-                SumEquation;
+                sumEquation.calculate();
                 break;
             case ("sub"):
-                SubstractEquation;
+                substractEquation.calculate();
                 break;
             case ("div"):
-                DivEquation;
+                divEquation.calculate();
                 break;
             case ("mul"):
-                MulEquation;
+                mulEquation.calculate();
                 break;
         }
+        System.out.println();
 
     }
 }
