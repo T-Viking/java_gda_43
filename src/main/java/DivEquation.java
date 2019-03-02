@@ -6,4 +6,9 @@ public class DivEquation implements iCalculable {
     public double calculate() {
         return a / b;
     }
+
+    public DivEquation(double a, double b) {
+        this.a = a;
+        this.b = b;
+    }
 }

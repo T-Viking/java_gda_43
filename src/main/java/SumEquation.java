@@ -6,4 +6,9 @@ public class SumEquation implements iCalculable {
     public double calculate() {
         return a + b;
     }
+
+    public SumEquation(double a, double b) {
+        this.a = a;
+        this.b = b;
+    }
 }
