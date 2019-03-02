@@ -1,7 +1,7 @@
 public class SumEquation implements iCalculable {
 
-    double a = 23.34;
-    double b = 1.44;
+    double a;
+    double b;
 
     public double calculate() {
         return a + b;
