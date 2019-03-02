@@ -1,4 +1,4 @@
-import javax.swing.plaf.multi.MultiLabelUI;
+
 import java.util.Scanner;
 
 public class main {
@@ -22,16 +22,16 @@ public class main {
         System.out.println("Podaj rodzaj operacji: ");
         String operacja = scanner.nextLine();
         switch (operacja){
-            case ("add"):
+            case "add":
                 sumEquation.calculate();
                 break;
-            case ("sub"):
+            case "sub":
                 substractEquation.calculate();
                 break;
-            case ("div"):
+            case "div":
                 divEquation.calculate();
                 break;
-            case ("mul"):
+            case "mul":
                 mulEquation.calculate();
                 break;
         }
