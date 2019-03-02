@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 public class DivEquation implements iCalculable {
 
     double x = 33.64;
